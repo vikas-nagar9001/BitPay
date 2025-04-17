@@ -1,0 +1,194 @@
+
+
+/* wallet balance css */
+.walletBalanceCard {
+    width: fit-content;
+    height: 70px;
+    background-color: #1c1f2f;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 12px;
+    padding: 0px 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 5px;
+  }
+  .svgwrapper {
+    width: 28px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .svgwrapper svg {
+    width: 100%;
+  }
+  .balancewrapper {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    width: 120px;
+    gap: 0px;
+  }
+  .balanceHeading {
+    font-size: 8px;
+    color: rgb(214, 214, 214);
+    font-weight: 100;
+    letter-spacing: 0.6px;
+  }
+  .balance {
+    font-size: 13.5px;
+    color: white;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+  }
+  
+  .addmoney {
+    padding: 1px 15px;
+    border-radius: 20px;
+    background-color: #c083eb;
+    color: white;
+    border: none;
+    font-size: 12px;
+    cursor: pointer;
+    transition: all 0.3s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+  }
+  .addmoney:hover {
+    background-color: whitesmoke;
+    color: #9c59cc;
+  }
+  .plussign {
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+ 
+ 
+  /* wallet addmoney form css  */
+
+
+/* Ensure the container is centered */
+/* Modal background overlay */
+
+
+.funds-container {
+    width: 350px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1000; 
+}
+/* Rest of your existing styles */
+.funds-card {
+    padding: 20px;
+}
+
+.funds-header {
+    text-align: center;
+    background-color: #444;
+    padding: 10px;
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.funds-header h2 {
+    color: inherit; /* Inherit the color from .funds-header */
+    margin: 0; /* Remove default margin if needed */
+}
+
+
+
+
+.funds-amount {
+    text-align: center;
+    margin: 20px 0;
+
+}
+
+.funds-amount input {
+    font-size: 24px;
+    border: none;
+    background: none;
+    color: #000;
+    text-align: center;
+    width: 100%;
+}
+
+.funds-amount p {
+    color: #888;
+}
+
+.funds-payment-method {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.funds-payment-method button {
+    background: none;
+    border: none;
+    padding: 10px 20px;
+    font-size: 14px;
+    cursor: pointer;
+    color: #444;
+}
+
+.funds-payment-method button.active {
+    border-bottom: 2px solid #000;
+    color: #000;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.form-group-row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.form-group-row .form-group {
+    width: 48%;
+}
+
+.submit-btn {
+    width: 100%;
+    background-color: #007bff;
+    color: #fff;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.submit-btn:hover {
+    background-color: #0056b3;
+}
+
+#net-banking-section {
+    display: none;
+}
+
+
